@@ -29,6 +29,9 @@ INSTALLED_APPS = [
 
     #Local apps
     'itemsapp.apps.ItemsappConfig',
+
+    #3rd party apps
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
